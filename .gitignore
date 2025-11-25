@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+# Distribution and build archives
+dist/
+build/
+*.egg-info/
+.coverage
+.pytest_cache/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json # Keep settings.json if explicitly managed
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/ # Gemini temp directory
+
+# PyAutoGUI, OpenCV, Tesseract specific (if any temp files are created)
+# Add specific patterns here if they create known temp files in the root or subdirs
+
+# User-specific settings (e.g., QSettings)
+# These are usually stored in OS-specific locations, but if any local file is created:
+# *.user
